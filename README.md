@@ -1,6 +1,5 @@
-# GS_IPUMS
+# Genealogical Searching - IPUMS Family Simulator
 
-Genealogical Searching - IPUMS Family Simulator 
 
 Written by Berenice Chavez Rojas, 
 Rohlfs Lab - Department of Biology at SFSU  
