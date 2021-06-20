@@ -1,7 +1,7 @@
 # Genealogical Searching - IPUMS Family Simulator
 
 
-Written by Berenice Chavez Rojas.
+Written by Berenice Chavez Rojas
 
 Rohlfs Lab - Department of Biology at SFSU.  
 
