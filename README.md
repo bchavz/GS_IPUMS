@@ -13,11 +13,12 @@ Additionally, a text file that contains the edge list data will be created with 
 ```
 nx.write_edgelist(graph, "edgeList.txt")
 ```
-The edge list text file will contain the parent - child relationship in the following format: (fam_2kids.txt is a sample output file) 
+The edge list text file will contain the parent - child relationship in the following format:  
 ```
 1 3 {}
 1 25 {}
 ```
+fam_2kids.txt is a sample edge list file
 
 ## General Info: 
 This program uses NetworkX, a Python packages that helps create, manipulate and analyze complex graphs and networks. A recursive function is used to add generation to a family pedigree. 
