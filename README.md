@@ -1,24 +1,25 @@
 # Genealogical Searching - IPUMS Family Simulator
 
 
-Written by Berenice Chavez Rojas 
-Rohlfs Lab - Department of Biology at SFSU  
+Written by Berenice Chavez Rojas.
 
-#### Input:
+Rohlfs Lab - Department of Biology at SFSU.  
+
+** Input:**
 CSV file containing years (1850-2000) and number of children. 
  ** give more detail on rows and columns, labels
  ** example file -> toydata
 
-### Output:
+** Output: **
  ** explain what output will be:
 	-pedigree
 	- text file with parent - child relationship (explain what rows and columns are) -> example file
 
-### General Info:
+** General Info: **
 This program uses NetworkX, a Python packages that helps create, manipulate and analyze complex graphs and networks. A recursive function is used to add generation to a family pedigree. 
 	uses networkx and incorporate recursive function
 
-#### Family Recursive Function:
+** Family Recursive Function: **
 The goal is to simulate multigenerational families using data from IPUMS CSV file.
  *what is the data 
 	*based on sib sizes from historical data  
@@ -29,11 +30,11 @@ Recursion is used to add a new generation to the family by increasing curGen by 
 
 nx.write_edgelist saves edges as a text file to later be used in the SLiMulation pipeline.
 
-#### how to run
+** how to run **
   #how does the user run the data (command line, specific #of child, etc) 
 
 
-#### Files: 
+** Files: **
 Data Files
 1. toyIPUMS - smaller CSV dataset that contains 50 number of children for every year. 
 2. IPUMS_data - full dataset 
