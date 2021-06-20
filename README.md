@@ -18,7 +18,7 @@ CSV file containing years (1850-2000) and number of children.
 This program uses NetworkX, a Python packages that helps create, manipulate and analyze complex graphs and networks. A recursive function is used to add generation to a family pedigree. 
 	uses networkx and incorporate recursive function
 
-## Family Recursive Function: 
+## Family Recursive Function:  
 The goal is to simulate multigenerational families using data from IPUMS CSV file.
  *what is the data 
 	*based on sib sizes from historical data  
