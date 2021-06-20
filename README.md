@@ -1,6 +1,5 @@
 # Genealogical Searching - IPUMS Family Simulator
 
-
 ###### Written by Berenice Chavez Rojas
 ###### Rohlfs Lab - Department of Biology at SFSU  
 
@@ -8,7 +7,7 @@
 The CSV file containing years (1850-2000) and number of children. The first row of the data set contains the years, while the columns under each year contain the number of children per family. The file toyIPUMS.csv is a smaller example of the larger data set. 
 
 ## Output: 
-A graph containing all of the family member in the multigenerational family will be visualized. 
+A graph containing all of the family members in a multigenerational family will be visualized. 
 Additionally, a text file that contains the edge list data will be created with the following line of code:  
 ```
 nx.write_edgelist(graph, "edgeList.txt")
@@ -24,7 +23,7 @@ fam_2kids.txt is a sample edge list file
 This program uses NetworkX, a Python packages that helps create, manipulate and analyze complex graphs and networks. A recursive function is used to add generation to a family pedigree. 
 	uses networkx and incorporate recursive function
 
-## Family Recursive Function:  
+## Recursive Function:  
 The goal is to simulate multigenerational families using data from IPUMS CSV file.
  *what is the data 
 	*based on sib sizes from historical data  
