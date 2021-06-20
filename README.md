@@ -9,11 +9,16 @@ The CSV file containing years (1850-2000) and number of children. The first row 
 
 ## Output: 
 A graph containing all of the family member in the multigenerational family will be visualized. 
-Additionally, a text file will contain the edge list data will be created with the following line of code:  
+Additionally, a text file that contains the edge list data will be created with the following line of code:  
 ```
 nx.write_edgelist(graph, "edgeList.txt")
 ```
+The edge list text file will contain the parent and child information in the following format: 
+```
+1 3 {}
+1 25 {}
 
+```
 ** explain what output will be:
 	-pedigree
 	- text file with parent - child relationship (explain what rows and columns are) -> example file
