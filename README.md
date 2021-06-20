@@ -5,12 +5,15 @@
 ###### Rohlfs Lab - Department of Biology at SFSU  
 
 ## Input:
-CSV file containing years (1850-2000) and number of children. 
- ** give more detail on rows and columns, labels
- ** example file -> toydata
+The CSV file containing years (1850-2000) and number of children. The first row of the data set contains the years, while the columns under each year contain the number of children per family. The file toyIPUMS.csv is a smaller examples of the data set. 
 
 ## Output: 
- ** explain what output will be:
+A graph containing all of the family member in the multigenerational family will be visualized. 
+Additionally, a text file will contain the edge list data will be created with the following line of code:  
+'''
+nx.write_edgelist(graph, "edgeList.txt")
+
+** explain what output will be:
 	-pedigree
 	- text file with parent - child relationship (explain what rows and columns are) -> example file
 
