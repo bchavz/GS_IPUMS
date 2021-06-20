@@ -1,7 +1,7 @@
 # Genealogical Searching - IPUMS Family Simulator
 
 
-Written by Berenice Chavez Rojas, 
+Written by Berenice Chavez Rojas 
 Rohlfs Lab - Department of Biology at SFSU  
 
 #### Input:
@@ -14,7 +14,8 @@ CSV file containing years (1850-2000) and number of children.
 	-pedigree
 	- text file with parent - child relationship (explain what rows and columns are) -> example file
 
-### General Info: 
+### General Info:
+This program uses NetworkX, a Python packages that helps create, manipulate and analyze complex graphs and networks. A recursive function is used to add generation to a family pedigree. 
 	uses networkx and incorporate recursive function
 
 #### Family Recursive Function:
@@ -33,8 +34,10 @@ nx.write_edgelist saves edges as a text file to later be used in the SLiMulation
 
 
 #### Files: 
-
+Data Files
 1. toyIPUMS - smaller CSV dataset that contains 50 number of children for every year. 
 2. IPUMS_data - full dataset 
    - Data from 1850-1990 contain either 1% or 5% sample from CENSUS data.  
    - Data from 2000-2019 contains data samples from ACS (American Community Survey).  
+
+Python Files 
