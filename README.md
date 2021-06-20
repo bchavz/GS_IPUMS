@@ -17,7 +17,6 @@ The edge list text file will contain the parent and child information in the fol
 ```
 1 3 {}
 1 25 {}
-
 ```
 ** explain what output will be:
 	-pedigree
