@@ -2,7 +2,6 @@
 
 
 ###### Written by Berenice Chavez Rojas
-
 ###### Rohlfs Lab - Department of Biology at SFSU  
 
 ## Input:
