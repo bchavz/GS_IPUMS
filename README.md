@@ -5,7 +5,7 @@ Written by Berenice Chavez Rojas.
 
 Rohlfs Lab - Department of Biology at SFSU.  
 
-** Input:**
+**Input:**
 CSV file containing years (1850-2000) and number of children. 
  ** give more detail on rows and columns, labels
  ** example file -> toydata
