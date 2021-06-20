@@ -30,7 +30,7 @@ Recursion is used to add a new generation to the family by increasing curGen by 
 
 nx.write_edgelist saves edges as a text file to later be used in the SLiMulation pipeline.
 
-## how to run 
+## How to Run 
   #how does the user run the data (command line, specific #of child, etc) 
 
 
