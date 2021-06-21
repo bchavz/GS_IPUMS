@@ -34,13 +34,13 @@ Recursion is used to add a new generation to the family by increasing curGen by 
 Edge list information is saved as a text file that can later be used in the SLiMulation pipeline.
 
 ## How to Run 
-To run setNum_GS.py the NetwworkX library must be imported. If package is not found, use: 
+To run NetworkX library must be imported. If package is not found, use: 
 ```
 pip install networkx
 ```
-This python file does not use the csv file, thus the number of kids each parent has must be indicated in the code kid= 
+The setNum_GS.py file does not use the CSV file, thus the number of kids each parent has must be indicated in the code (kid= )
 
-The user can indicate the curent final generation depth. In the following line the family graph has a final genertion depth of 4. 
+The user can indicate the current and final generation depth. In the following line the family graph has a final generation depth of 4. 
 ```
 family(graph, parent1, 0, 4)
 ```
@@ -54,3 +54,4 @@ Data Files
 
 Python Files 
 1. setNum_GS.py
+2. creatingFams_GS.py
