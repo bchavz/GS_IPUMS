@@ -40,6 +40,11 @@ pip install networkx
 ```
 This python file does not use the csv file, thus the number of kids each parent has must be indicated in the code kid= 
 
+The user can indicate the curent final generation depth. In the following line the family graph has a final genertion depth of 4. 
+```
+family(graph, parent1, 0, 4)
+```
+
 ## Files: 
 Data Files
 1. toyIPUMS - smaller CSV dataset that contains 50 number of children for every year. 
