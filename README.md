@@ -34,7 +34,7 @@ Recursion is used to add a new generation to the family by increasing curGen by 
 Edge list information is saved as a text file that can later be used in the SLiMulation pipeline.
 
 ## How to Run 
-To run NetworkX library must be imported. If package is not found, use: 
+To run NetworkX library must be imported. If library is not found, use: 
 ```
 pip install networkx
 ```
