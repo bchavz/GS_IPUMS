@@ -4,7 +4,7 @@
 ###### Rohlfs Lab - Department of Biology at SFSU  
 
 ## Input:
-The CSV file containing years (1850-2000) and number of children. The first row of the data set contains the years, while the columns under each year contain the number of children per family. The file toyIPUMS.csv is a smaller example of the larger data set. 
+CSV file containing years (1850-2000) and number of children. The first row of the data set contains the years, while the columns under each year contain the number of children per family. The file toyIPUMS.csv is a smaller example of the larger data set. 
 
 ## Output: 
 A graph containing all of the family members in a multigenerational family will be visualized. 
