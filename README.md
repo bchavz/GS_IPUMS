@@ -21,22 +21,24 @@ fam_2kids.txt is a sample edge list file
 
 ## General Info: 
 This program uses NetworkX, a Python packages that helps create, manipulate and analyze complex graphs and networks. A recursive function is used to add generation to a family pedigree. 
-	uses networkx and incorporate recursive function
 
+The csv data file is composed of data obtained from IPUMS (Integrated Public Use Microdata Series). IPUMS is a database that provides Census and American Community Survey household composition data. The CSV file is based on the number of kids per family found between the years 1850 - 2000. 
+	
 ## Recursive Function:  
 The goal is to simulate multigenerational families using data from IPUMS CSV file.
- *what is the data 
-	*based on sib sizes from historical data  
 
-Function takes graph, parent1, current generation (curGen) and final generation (finalGD) as arguments. The graph is a NetworkX MultiDiGraph (a directed graph that is able to store multi-edges), the directionality of the graph prevents the possibility of a child becoming a parent to their own parent(s) as generations are added. 
+Function takes graph, parent, current generation (curGen) and final generation (finalGD) as arguments. The graph is a NetworkX MultiDiGraph (a directed graph that is able to store multi-edges), the directionality of the graph prevents the possibility of a child becoming a parent to their own parent(s) as generations are added. 
 
 Recursion is used to add a new generation to the family by increasing curGen by 1. 
 
-nx.write_edgelist saves edges as a text file to later be used in the SLiMulation pipeline.
+Edge list information is saved as a text file that can later be used in the SLiMulation pipeline.
 
 ## How to Run 
-  #how does the user run the data (command line, specific #of child, etc) 
-
+To run setNum_GS.py the NetwworkX library must be imported. If package is not found, use: 
+```
+pip install networkx
+```
+This python file does not use the csv file, thus the number of kids each parent has must be indicated in the code kid= 
 
 ## Files: 
 Data Files
@@ -46,3 +48,4 @@ Data Files
    - Data from 2000-2019 contains data samples from ACS (American Community Survey).  
 
 Python Files 
+1. setNum_GS.py
