@@ -53,5 +53,5 @@ Data Files
    - Data from 2000-2019 contains data samples from ACS (American Community Survey).  
 
 Python Files 
-1. setNum_GS.py
-2. creatingFams_GS.py
+1. setNum_GS.py - number of kids per every two parents is hard coded
+2. GS_CreatingFamilies.py - number of kids is random; the program uses CSV data containing IPUMS data 
