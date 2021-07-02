@@ -25,7 +25,7 @@ with open('toyIPUMS.csv') as f:
 dictionary={c[0]:c[1:] for c in cols}
 #print(dictionary)  
     
-year=random.choice(list(dictionary.keys())) #pick random year for keys (aka years)
+year=random.choice(list(dictionary.keys())) #pick random year for keys
 #print(year)
 
 numberKids=random.choice(list(dictionary.values())) #pick random year for keys (aka number of children)
@@ -49,10 +49,10 @@ def family(graph, parent1, curGen, finalGenDepth):
     print ("curGen", curGen)
     
     randomK= random.choice(numberKids)
-    #edits to be made: 
-        #choose random choice from year that corresponds to curGen
-        #random choice dictionary name and year of curGen 
-        #chosen year can be hard coded 
+    #EDITS TO BE MADE: 
+    #choose random choice from year that corresponds to curGen
+    #random choice dictionary name and year of curGen 
+    #chosen year can be hard coded 
     
     kid=int(randomK) #random number of kids 
     print("kid #:",kid)
@@ -78,6 +78,6 @@ def family(graph, parent1, curGen, finalGenDepth):
     graph.edges(data=True)
     return
 
-family(graph, parent1, 0, 1)
+family(graph, parent1, 0, 4)
 
 nx.write_edgelist(graph, "FamEdgeList.txt") #save edge list
