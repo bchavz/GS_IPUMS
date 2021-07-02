@@ -49,7 +49,7 @@ family(graph, parent1, 0, 4)
 Data Files
 1. toyIPUMS - smaller CSV dataset that contains 50 number of children for every year. 
 2. IPUMS_data - full dataset 
-   - Data from 1850-1990 contain either 1% or 5% sample from CENSUS data.  
+   - Data from 1850-1990 contain either 1% or 5% samples from CENSUS data.  
    - Data from 2000-2019 contains data samples from ACS (American Community Survey).  
 
 Python Files 
