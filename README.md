@@ -54,4 +54,4 @@ Data Files
 
 Python Files 
 1. setNum_GS.py - number of kids per every two parents is hard coded
-2. GS_CreatingFamilies.py - number of kids is random; the program uses CSV data containing IPUMS data 
+2. GS_CreatingFamilies.py - number of kids is random; the program uses CSV data file containing IPUMS data 
